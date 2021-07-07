@@ -52,7 +52,7 @@ echo ""
 }
 
 #    Check Internet
-wget -q --spider https://github.com/anubhavanonymous
+wget -q --spider https://github.com/nikolajjakubets
 
 if [ $? -eq 0 ]; then
     just
@@ -123,7 +123,7 @@ sleep 2
 echo ""
 cd ..
 rm -rf XLR8_BOMBER
-git clone https://github.com/anubhavanonymous/XLR8_BOMBER > /dev/null 2>&1
+git clone https://github.com/nikolajjakubets/XLR8_BOMBER > /dev/null 2>&1
 cd XLR8_BOMBER
 chmod +x xlr8.sh
 clear
@@ -160,7 +160,7 @@ cp tailapis $PW_WD
 cp anonapi $PW_WD
 cd ..
 
-SECRET=VmtjMWQyTnJNSGROVlZab1pXdGFUMVZyV2tkT2JGSjFXa2hhVVZWWE9EbERaejA5Q2c9PQo=
+SECRET=VmtkNFUyRnJNWEpPV0VaVlZrVndVVlpyVmxaTlVUMDk=
 for i in {1..5}
 do SECRET=$(echo $SECRET | base64 --decode)
 done
@@ -199,10 +199,6 @@ printf "\e[0m\e[92m                 Group Admin at$WHITE DeepWeb Shadows\e[0m\n"
 echo ""
 echo "       $MAGENTA          My social handles are below !!" | pv -qL 10
 echo ""
-printf "\e[0m\e[92m          Github \e[0m\e[91m     :    \e[0m\e[96mgithub.com/anubhavanonymous\e[0m\n" | pv -qL 50
-echo ""
-printf "\e[0m\e[92m         Instagram \e[0m\e[91m   :   \e[0m\e[96minstagram.com/anubhavanonymous\e[0m\n" | pv -qL 50
-echo ""
 echo -e "\e[1;91m                        Happy Hacking :)" | pv -qL 10
 sleep 7
 menux
@@ -235,7 +231,7 @@ printf "  $WHITE                      ▂▄▅███\e[1;31mXLR8\e[1;0m█�
 printf "  $RED                    I███████████████████]\n"
 printf "  $WHITE                      ◥⊙▲⊙▲⊙▲⊙▲⊙▲⊙▲⊙◤...\n"
 echo ""
-printf "             ~~~\e[1;92m Attack Started On +91$targett \e[0m~~~"
+printf "             ~~~\e[1;92m Attack Started On +48$targett \e[0m~~~"
 sleep 1
 echo ""
 echo ""
